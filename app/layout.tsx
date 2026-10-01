@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "FLAG Auto Care — Care Today. Better Tomorrow.",
+  title: "FLAG Automotives — Care Today. Better Tomorrow.",
   description: "Professional vehicle care, transparent updates and doorstep pickup and delivery.",
   other: {
     "codex-preview": "development",
