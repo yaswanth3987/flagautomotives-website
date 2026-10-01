@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "FLAG Automotives — Care Today. Better Tomorrow.",
-  description: "Professional vehicle care, transparent updates and doorstep pickup and delivery.",
+  description: "FLAG Automotives — professional car servicing, repairs, maintenance, wash and detailing.",
   other: {
     "codex-preview": "development",
   },
