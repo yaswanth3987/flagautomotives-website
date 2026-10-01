@@ -1,3 +1,16 @@
+# FLAG Automotives
+
+## Netlify deployment
+
+The checked-in `netlify.toml` configures `npm run build:netlify` and publishes `out/`.
+This build uses Next.js static export. `NETLIFY_NEXT_PLUGIN_SKIP=true` disables the
+server adapter, which expects a different output directory. The existing Vinext
+commands remain available for local preview and Sites hosting.
+
+If Netlify retains an explicitly installed Next.js runtime plugin in the UI,
+remove it: this static export does not require a runtime plugin. Redeploy the latest
+`main` commit. No booking backend or server functions are required by this site.
+
 # vinext-starter
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
