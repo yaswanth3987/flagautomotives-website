@@ -1,5 +1,16 @@
 # FLAG Automotives
 
+## Vercel deployment
+
+`vercel.json` selects static hosting, runs `npm run build:vercel`, and publishes
+`out/`. Node.js is pinned to 24.x. The shared export script uses Next.js to
+produce static HTML, CSS and JavaScript rather than Vinext Worker output.
+
+Deploy the latest `main` commit. After the Vercel URL works, add both
+`flagautomotives.com` and `www.flagautomotives.com` under Project Settings > Domains.
+Use the exact DNS values Vercel provides. Update records at the authoritative
+DNS provider; changing the hosting provider alone does not move DNS.
+
 ## Netlify deployment
 
 The checked-in `netlify.toml` configures `npm run build:netlify` and publishes `out/`.
